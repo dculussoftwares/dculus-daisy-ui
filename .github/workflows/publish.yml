@@ -1,4 +1,3 @@
-
 name: "Build, Publish, Deploy"
 
 on:
@@ -23,18 +22,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: builduikit
+        run: npm run builduikit
+
       - name: build
         run: npm run build
-
-      # - name: builduikit
-      #   run: npm run builduikit
 
       - name: Publish
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-
-
 # name: "Build, Publish, Deploy"
 
 # on:
