@@ -1,6 +1,6 @@
 {
   "name": "daisyui",
-  "version": "2.13.3",
+  "version": "0.0.1",
   "description": "daisyUI - Tailwind CSS Components",
   "author": "Pouya Saadeghi",
   "license": "MIT",
@@ -37,7 +37,8 @@
     "!dist/*.rtl.css",
     "src/index.js",
     "src/colors/*.js",
-    "src/apple/*.tsx"
+    "src/apple/*.tsx",
+    "build/*"
   ],
   "browserslist": [
     "> 7%"
