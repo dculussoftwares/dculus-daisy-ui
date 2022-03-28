@@ -1,6 +1,6 @@
 {
   "name": "daisyui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "daisyUI - Tailwind CSS Components",
   "author": "Pouya Saadeghi",
   "license": "MIT",
@@ -50,7 +50,7 @@
     ]
   },
   "scripts": {
-    "buildlocal": "rm -rf dist && rollup -c",
+    "builduikit": "rm -rf dist && rollup -c",
     "devkit": "webpack serve --hot",
     "buildkit": "NODE_ENV=production webpack",
     "prebase": "postcss --config src/base src/base/*.css --base src --dir dist",
