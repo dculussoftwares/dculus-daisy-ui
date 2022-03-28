@@ -1,6 +1,6 @@
 {
   "name": "dculus-daisy-ui",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "daisyUI - Tailwind CSS Components",
   "author": "Pouya Saadeghi",
   "license": "MIT",
@@ -88,6 +88,7 @@
     "test:run": "vitest run"
   },
   "devDependencies": {
+    "pre-commit": "1.2.2",
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "^11.2.1",
     "rollup": "^2.56.3",
