@@ -145,7 +145,7 @@
       }
     }
     &.btn-secondary {
-      @apply text-secondary;
+      @apply text-primary;
       &:hover {
         @apply border-secondary-focus bg-secondary-focus text-secondary-content;
       }

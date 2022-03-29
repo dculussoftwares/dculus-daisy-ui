@@ -1,5 +1,6 @@
 import "./tailwind.css";
 import Button from "./components/Button";
+import Btn from "./components/Btn";
 
 const App = () => {
   return (
@@ -10,6 +11,8 @@ const App = () => {
         your app
       </p>
       <Button />
+
+      <Btn />
     </div>
   );
 };

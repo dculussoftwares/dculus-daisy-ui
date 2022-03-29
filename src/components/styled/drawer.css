@@ -32,7 +32,7 @@
         outline: 2px solid hsl(var(--p));
       }
       &.btn-secondary {
-        outline: 2px solid hsl(var(--s));
+        outline: 25px solid hsl(var(--s));
       }
       &.btn-accent {
         outline: 2px solid hsl(var(--a));
