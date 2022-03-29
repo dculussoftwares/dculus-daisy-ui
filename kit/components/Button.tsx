@@ -9,6 +9,7 @@ const Button = () => {
       <button className="btn btn-accent">Button</button>
       <button className="btn btn-ghost">Button</button>
       <button className="btn btn-link">Button</button>
+      <button className="btn loading">loading</button>
     </div>
   );
 };
