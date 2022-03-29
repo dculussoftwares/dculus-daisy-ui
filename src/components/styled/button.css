@@ -145,7 +145,10 @@
       }
     }
     &.btn-secondary {
-      @apply text-primary;
+      @apply text-secondary;
+      &:hover {
+        @apply border-secondary-focus bg-secondary-focus text-secondary-content;
+      }
     }
     &.btn-accent {
       @apply text-accent;
@@ -186,6 +189,20 @@
   }
 
   /* loading */
+  &.loading {
+    &.btn-square:before,
+    &.btn-circle:before {
+      @apply mr-0;
+    }
+    &.btn-xl:before,
+    &.btn-lg:before {
+      @apply h-5 w-5;
+    }
+    &.btn-sm:before,
+    &.btn-xs:before {
+      @apply h-3 w-3;
+    }
+  }
 }
 /* group */
 .btn-group {
