@@ -176,7 +176,7 @@ module.exports = {
     error: "#dc2626",
   },
   "[data-theme=light]": {
-    primary: "#570df8",
+    primary: "#6366f1",
     "primary-content": "#ffffff",
     secondary: "#f000b8",
     "secondary-content": "#ffffff",
