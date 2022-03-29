@@ -22,8 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: builduikit
-        run: npm run builduikit
+      # - name: builduikit
+      #   run: npm run builduikit
 
       - name: build
         run: npm run build

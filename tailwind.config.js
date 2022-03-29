@@ -4,6 +4,5 @@ module.exports = {
   theme: {
     extends: {},
   },
-  plugins: [require("dculus-daisy-ui")],
   
 };

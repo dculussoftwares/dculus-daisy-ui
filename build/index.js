@@ -2463,15 +2463,17 @@ if (process.env.NODE_ENV === 'production') {
 }
 });
 
-var Button = function () {
+var Btn = function () {
     return (react.createElement("div", null,
-        react.createElement("button", { className: "btn" }, "Button"),
-        react.createElement("button", { className: "btn btn-primary" }, "Button"),
-        react.createElement("button", { className: "btn btn-secondary" }, "Button"),
-        react.createElement("button", { className: "btn btn-accent" }, "Button"),
-        react.createElement("button", { className: "btn btn-ghost" }, "Button"),
-        react.createElement("button", { className: "btn btn-link" }, "Button")));
+        react.createElement("button", { className: "btn btn-active" }, "Button"),
+        react.createElement("button", { className: "btn btn-active btn-primary" }, "Button"),
+        react.createElement("button", { className: "btn btn-active btn-secondary" }, "Button"),
+        react.createElement("button", { className: "btn btn-active btn-accent" }, "Button"),
+        react.createElement("button", { className: "btn btn-active btn-ghost" }, "Button"),
+        react.createElement("button", { className: "btn btn-active btn-link" }, "Button"),
+        react.createElement("button", { className: "btn btn-active btn-link" }, "Button"),
+        react.createElement("button", { className: "btn loading" }, "loading")));
 };
 
-exports.Button = Button;
+exports.Btn = Btn;
 //# sourceMappingURL=index.js.map
